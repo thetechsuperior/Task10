@@ -1,0 +1,401 @@
+:root {
+    --mainColor: rgb(189, 171, 137);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+body{
+    font-family: sans-serif;
+    margin: 0;
+    background-color: rgb(16, 15, 14);
+    padding: 0%;
+    box-sizing: border-box;
+}
+
+nav {
+    position: relative;
+    font-size: clamp(1rem, 2.5vw, 2rem);
+    font-weight: 550;
+    align-items: center;
+    height: auto;
+    color: var(--mainColor);
+    margin: 1%;
+    margin-left: 5%;
+    margin-right: 5%;
+    /* background-color: rgb(48, 57, 64); */
+}
+#headerImg {
+    position: absolute;
+    height: 80%;
+    left: clamp(1rem, 1vw, 2rem);
+    padding: 1%;
+}
+#headerText {
+    display: flex;
+    justify-content: right;
+}
+#headerText button {
+    display: none;
+    margin: 1vw;
+    border: none;
+    background: none;
+    cursor: pointer;
+    font-size: clamp(1.2rem, 1.6vw, 3rem);
+    color: var(--purple);
+    font-weight: bolder;
+    text-transform: uppercase;
+    padding: 1%;
+    border: 0px groove;
+    border-top: 0;
+    transition: all 0.2s ease-in;
+}
+#headerText button:hover {
+    background-color: #575555;
+    border-radius: 5px;
+    padding-left: 1%;
+    padding-right: 1%;
+    /* border: 10px groove; */
+}
+#menuBar{
+    padding: 1%;
+    padding: 1%;
+    border: 0px groove;
+    border-top: 0;
+    transition: all 0.2s ease-in;
+    fill: bisque;
+    height: 50%;
+    background-color: rgb(63, 65, 66);
+    border-radius: 10px;
+}
+#menuBar:hover{
+    background-color: #6b6868;
+    border-radius: 5px;
+    padding-left: 1%;
+    padding-right: 1%;
+}
+.header{
+    /* background-image: url("../images/major-1-bgimgleft.png");
+    top: 0;
+    left: 0; */
+    position: relative;
+    height: auto;
+}
+.headerRightText{
+    color: white;
+    flex-direction: column;
+}
+#headerFirstP{
+    padding-left: 50vw;
+    font-size: clamp(1.3rem, max(3vh,4vw), 4rem);
+    font-weight: bolder;
+    margin-right: 5%;
+    margin-top: 10%;
+}
+#headerSecondP{
+    padding-left: 60vw;
+    font-size: clamp(.8rem, max(2vh,3vw), 2rem);
+    margin-right: 10%;
+}
+/* #leftBGImgOFHeader{
+    min-height: 70vh;
+    max-height: 110vh;
+    position: absolute;
+    height: 80rem ;
+    left: -30rem;           full screen
+    top: -23rem;
+    height: 31rem ;
+    left: -12rem;           small screen
+    top: -9rem;
+    height: clamp(31rem, max , 80rem) ;
+    left: -12rem;
+    top: -9rem;
+    z-index: -1;
+
+} */
+#leftBGMeshOFHeader{
+    position: absolute;
+    z-index: -3;
+    top: 12%;
+    left: 0;
+    width: 10rem;
+}
+
+#firstbgimgleft{
+    position: absolute;
+    top: 0%;
+    left: 0%;
+    width: 8rem;
+    z-index: -2;
+}
+#leftpfpOFHeader{
+    position: absolute;
+    z-index: -1;
+    top: 15%;
+    left: 5%;
+    width: 12rem;
+}
+#HeaderReadMore{
+    font-size: clamp(.8rem, max(1.8vh,2.8vw), 2rem);
+    padding: 2%;
+    padding-right: 4%;
+    padding-left: 4%;
+    color: white;
+    background-color: var(--mainColor);
+    border: none;
+    margin-left: 60vw;
+    margin-right: 10%;
+    max-width: 30%;
+    font-weight: bolder;
+}
+
+
+
+
+
+
+.ourStory{
+    position: relative;
+    max-height: 90vh;
+    height: auto;
+    color: white;
+    margin: 5%;
+}
+#ourStoryPFP{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 50vw;
+    z-index: -1;
+}
+#ourStoryheading{
+    font-size: clamp(.8rem, max(2vh,3vw), 2rem);
+    font-weight: bolder;
+    color: var(--mainColor);
+}
+#ourStorycontext{
+    font-size: clamp(.8rem, max(2vh,3vw), 2rem);
+}
+#ourStoryReadMore{
+    background-color: rgb(18, 17, 17);
+    border: 5px solid var(--mainColor);
+    color: white;
+    font-size: clamp(.8rem, max(1.8vh,2.8vw), 2rem);
+    padding: 2%;
+    padding-left: 4%;
+    padding-right: 4%;
+    font-weight: bolder;
+}
+.ourStoryText{
+    margin-right: 5%;
+}
+
+#ourStoryRightBGImg{
+    position: absolute;
+    z-index: -2;
+    right: -5%;
+    bottom: -15%;
+    max-width: 30vw;
+}
+#ourStorycenterBGImg{
+    position: absolute;
+    z-index: -2;
+    top: -5%;
+    height: max(15vh,15vw);
+    left: 45%;
+}
+
+
+.coffeeBase{
+    position: relative;
+    padding: 5%;
+    height: auto;
+    text-align: center;
+}
+#coffeeBaseHeading{
+    font-size: clamp(.8rem, max(2vh,3vw), 2rem);
+    font-weight: bolder;
+    color: var(--mainColor);
+}
+#coffeeBaseHeadingImg{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    height: clamp(.8rem, max(1.5vh,2.5vw), 1.5rem);
+}
+.oneOfThree{
+    display: flex;
+    flex-direction: column;
+    padding: 3%;
+}
+.oneOfThree :nth-child(2){
+    font-size: clamp(.8rem, max(1.5vh,2.5vw), 1.8rem);
+    font-weight: bolder;
+    color: var(--mainColor);
+}
+.oneOfThree :nth-child(3){
+    font-size: clamp(.8rem, max(1vh,2vw), 1.3rem);
+    color: white;
+}
+
+#oneofthreeSvg {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 8vw;
+    height: auto;
+    z-index: -1;
+}
+
+
+
+#tryItPFP
+{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 50vw;
+    max-height: 45vw;
+}
+#tryItText{
+    padding: 5%;
+    position: relative;
+}
+#tryItText :first-child{
+    font-size: clamp(1.3rem, max(2vh,3vw), 2rem);
+    font-weight: bolder;
+}
+#tryItText :nth-child(2){
+    font-size: clamp(.8rem, max(2vh,3vw), 2rem);
+    line-height: 120%;
+    letter-spacing: .05rem;
+}
+#tryItReadMore{
+    background-color: var(--mainColor);
+    border: 1px solid white;
+    font-size: clamp(.8rem, max(1.5vh,2vw), 1.5rem);
+    padding: 3%;
+    padding-left: 4%;
+    padding-right: 4%;
+    font-weight: bolder;
+}
+
+#tryItBG{
+    position: absolute;
+    width: 100vw;
+    min-height: 90vh;
+    max-height: 120vh;
+    z-index: -2;
+    left: 0%;
+    top: -20%;
+}
+#tryItCoffeeMug{
+    display: none;
+    height: auto;
+    width: 30vw;
+    max-height: 20vw;
+}
+#tryItRightSide{
+    display: flex;
+}
+
+.menu{
+    position: relative;
+}
+#menuBG{
+    position: absolute;
+    z-index: -3;
+    right: 0;
+    left: 0;
+    margin: auto;
+}
+
+
+@media screen and (min-width: 524px) {
+
+    #tryItCoffeeMug{
+        display: block;
+        margin: auto;
+    }
+}
+@media screen and (min-width: 768px) {
+    nav{
+        min-height: 15vh;
+    }
+    #headerText button {
+        display: block;
+    }
+    #menuBar{
+        display: none;
+    }
+
+    #headerSecondP{
+        padding-left: 65vw;
+        margin-right: 12%;
+    }
+    #HeaderReadMore{
+        margin-left: 65vw;
+    }
+    #firstbgimgleft{
+        width: 12rem;
+    }
+    #leftBGMeshOFHeader{
+        top: 25%;
+        width: 20rem;
+    } 
+    #leftpfpOFHeader{
+        top: 30%;
+        width: 25rem;
+    }
+    .ourStory{
+        margin-top: 20%;
+        display: flex;
+        flex-direction: row-reverse;
+        margin-right: 5%;
+    }
+    #ourStoryPFP{
+        max-height: 85vh;
+    }
+    .ourStoryText{
+        max-width: 35vw;
+    }
+    .oneOfThreeParent{
+        display: flex;
+    }
+    .oneOfThree :nth-child(3){
+        line-height: 120%;
+    }
+    
+}
+@media screen and (min-width:1024px){
+    #firstbgimgleft{
+        width: 18rem;
+    }
+    #leftBGMeshOFHeader{
+        top: 25%;
+        width: 28rem;
+    } 
+    #leftpfpOFHeader{
+        top: 30%;
+        width: 40rem;
+    }
+    .ourStoryText{
+        max-width: 40vw;
+    }
+    .ourStory{
+        margin-top: 30%;
+    }
+    #ourStorycenterBGImg{
+        top: -15%;
+    }
+    .tryIt{
+        display: flex;
+    }
+    #tryItBG{
+        left: auto;
+        right: 0;
+    }
+    #tryItRightSide{
+        flex-direction: column;
+    }
+    #tryItText{
+        padding: 10%;
+    }
+}
