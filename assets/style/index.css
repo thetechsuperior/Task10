@@ -155,6 +155,14 @@ nav {
     left: 5%;
     width: 12rem;
 }
+#rightBGImgofHeader{
+    position: absolute;
+    z-index: -1;
+    bottom: 30%;
+    right: 0%;
+    max-height: 40vh;
+    max-width: 10vw;
+}
 
 #HeaderReadMore {
     font-size: clamp(.8rem, max(1.8vh, 2.8vw), 2rem);
@@ -406,6 +414,7 @@ x {
 .Booking {
     padding-top: 3%;
     padding-bottom: 5%;
+    position: relative;
 }
 
 .bookingItems {
@@ -415,6 +424,14 @@ x {
     color: white;
     margin: 5%;
     font-weight: bold;
+}
+
+#bookingBG{
+    position: absolute;
+    max-width: 15vw;
+    left: 0;
+    top: -70%;
+    z-index: inherit;
 }
 
 .item {
@@ -674,6 +691,10 @@ footer {
     #firstbgimgleft {
         width: 18rem;
     }
+    #rightBGImgofHeader{
+        max-height: 40vh;
+        max-width: 15vw;
+    }
 
     #leftBGMeshOFHeader {
         top: 25%;
@@ -735,7 +756,7 @@ footer {
         padding-top: 10%;
     }
 
-    .footerHero {
+    /* .footerHero {
         max-width: 35vw;
-    }
+    } */
 }
