@@ -160,11 +160,6 @@ nav {
     font-weight: bolder;
 }
 
-
-
-
-
-
 .ourStory {
     position: relative;
     max-height: 90vh;
@@ -331,6 +326,23 @@ nav {
     display: flex;
 }
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 .menu {
     background-image: url("../images/major-5-bgimg.jpg");
     background-repeat: no-repeat;
@@ -342,24 +354,72 @@ nav {
     margin-right: 5%;
 }
 
-.menuItems {
-    display: flex;
-    justify-content: right;
-}
-
-.type>div :first-child {
+.listnamee{
     font-size: clamp(.8rem, max(2vh, 3vw), 1.5rem);
     letter-spacing: .05rem;
     color: white;
 
 }
+.listprice{
+    font-size: clamp(.8rem, max(2vh, 3vw), 1.5rem);
+    letter-spacing: .05rem;
+    color: white;
+    font-weight: bold;
 
-.type>div p {
-    display: inline;
+}
+.typeEx{
+    padding-left: 60%;
+    margin: 5%;
+    padding-top: 5%;
+}
+.typeT{
+    padding-left: 60%;
+    margin: 5%;
+    padding-bottom: 5%;
+}
+.menuList{
+    display: flex;
+    justify-content: space-between;
+}
+.menu hr{
+    line-height: 0;
+    margin: 0%;
+}
+
+.menuButton {
+    font-size: clamp(.8rem, max(1.5vh, 2vw), 1.3rem);
+    font-weight: bolder;
+    max-width: max(20vw, 20vh);
+    padding: 5%;
+    padding-left: 7%;
+    padding-right: 7%;
+    border: none;
+    background-color: var(--mainColor);
+    color: white;
+}
+x{
+    display: flex;
+    justify-content: end;
 }
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+.Booking{
+    padding-top: 3%;
+    padding-bottom: 5%;
+}
 .bookingItems {
     font-size: clamp(.8rem, max(1vh, 1vw), 1rem);
     display: flex;
