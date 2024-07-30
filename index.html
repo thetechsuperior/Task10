@@ -63,22 +63,35 @@
         <img src="./assets/images/major-3-heading.png" alt="" id="coffeeBaseHeadingImg">
         <div class="oneOfThreeParent">
             <div class="oneOfThree">
-                <img src="./assets/images/major-3-thecoffee.png" id="oneofthreeSvg">
-                <p>THE COFFEE</p>
-                <p>Make sure to feature your bestsellers or signature products or pieces.
-                    Keep it simple listing the name, price and brief description.</p>
+                <div>
+                    <img src="./assets/images/major-3-thecoffee.png" id="oneofthreeSvg">
+                </div>
+                <div>
+                    <p class="oneOfThreeHeading">THE COFFEE</p>
+                    <p class="oneOfThreeText">Make sure to feature your bestsellers or signature products or pieces.
+                        Keep it simple listing the name, price and brief description.</p>
+                </div>
             </div>
             <div class="oneOfThree">
-                <img src="./assets/images/major-3-organic.png" id="oneofthreeSvg">
-                <p>100% ORGANIC</p>
-                <p>Make sure to feature your bestsellers or signature products or pieces.
-                    Keep it simple listing the name, price and brief description.</p>
+                <div>
+                    <img src="./assets/images/major-3-organic.png" id="oneofthreeSvg">
+                </div>
+                <div>
+                    <p class="oneOfThreeHeading">100% ORGANIC</p>
+                    <p class="oneOfThreeText">Make sure to feature your bestsellers or signature products or pieces.
+                        Keep it simple listing the name, price and brief description.</p>
+                </div>
             </div>
             <div class="oneOfThree">
-                <img src="./assets/images/major-3-expertise.png" id="oneofthreeSvg">
-                <p>EXPERTISE</p>
-                <p>Make sure to feature your bestsellers or signature products or pieces.
-                    Keep it simple listing the name, price and brief description.</p>
+                <div>
+                    <img src="./assets/images/major-3-expertise.png" id="oneofthreeSvg">
+                </div>
+                <div>
+                    <p class="oneOfThreeHeading">EXPERTISE</p>
+                    <p class="oneOfThreeText">Make sure to feature your bestsellers or signature products or pieces.
+                        Keep it simple listing the name, price and brief description.</p>
+                </div>
+
             </div>
         </div>
 
@@ -100,26 +113,61 @@
     </main>
 
     <main class="menu">
-        <img src="./assets/images/major-5-bgimg.jpg" alt="" id="menuBG">
         <div id="menuItems">
             <div class="type">
-                <p>ESPRESSO</p>
-                <div><p>Americano</p><p>3.00</p></div>
-                <div><p>Cappuccino</p><p>3.00</p></div>
-                <div><p>Double Espresso</p><p>3.50</p></div>
-                <div><p>Latte</p><p>4.20</p></div>
-                <div><p>Macchiato</p><p>4.50</p></div>
-                <div><p>Mint Chocolate</p><p>5.25</p></div>
-                <div><p>Mocha</p><p>4.50</p></div>
-                <div><p>White Mocha</p><p>5.00</p></div>
+                <p id="ourStoryheading">ESPRESSO</p>
+                <div>
+                    <p>Americano</p>
+                    <p>3.00</p>
+                </div>
+                <div>
+                    <p>Cappuccino</p>
+                    <p>3.00</p>
+                </div>
+                <div>
+                    <p>Double Espresso</p>
+                    <p>3.50</p>
+                </div>
+                <div>
+                    <p>Latte</p>
+                    <p>4.20</p>
+                </div>
+                <div>
+                    <p>Macchiato</p>
+                    <p>4.50</p>
+                </div>
+                <div>
+                    <p>Mint Chocolate</p>
+                    <p>5.25</p>
+                </div>
+                <div>
+                    <p>Mocha</p>
+                    <p>4.50</p>
+                </div>
+                <div>
+                    <p>White Mocha</p>
+                    <p>5.00</p>
+                </div>
 
             </div>
             <div class="type">
-                <p>TEA</p>
-                <div><p>Earl Grey</p><p>3.75</p></div>
-                <div><p>English Breakfast</p><p>4.50</p></div>
-                <div><p>Green Tea</p><p>4.50</p></div>
-                <div><p>Jasmine Tea</p><p>4.50</p></div>
+                <p id="ourStoryheading">TEA</p>
+                <div>
+                    <p>Earl Grey</p>
+                    <p>3.75</p>
+                </div>
+                <div>
+                    <p>English Breakfast</p>
+                    <p>4.50</p>
+                </div>
+                <div>
+                    <p>Green Tea</p>
+                    <p>4.50</p>
+                </div>
+                <div>
+                    <p>Jasmine Tea</p>
+                    <p>4.50</p>
+                </div>
             </div>
         </div>
         <hr>
@@ -127,12 +175,140 @@
     </main>
 
     <main class="Booking">
-        <p>book here</p>
+        <p id="coffeeBaseHeading">BOOK HERE</p>
         <img src="./assets/images/major-3-heading.png" alt="" id="coffeeBaseHeadingImg">
-        <div id="BookInfo">
-            <!-- think here -->
+        <div id="bookInfo">
+            <div class="bookingItems">
+                <label for="choice">PEOPLE</label>
+                <input class="item" list="seating" id="choice" name="seating-choice" />
+
+                <datalist id="seating">
+                    <option value="1"></option>
+                    <option value="2"></option>
+                    <option value="3"></option>
+                    <option value="4"></option>
+                    <option value="5"></option>
+                    <option value="6"></option>
+                </datalist>
+            </div>
+
+            <div class="bookingItems">
+                <label for="birthday">DATE</label>
+                <input class="item" type="date" id="birthday" name="birthday">
+            </div>
+
+            <div class="bookingItems">
+                <label for="appt">TIME</label>
+                <input class="item" type="time" id="appt" name="appt">
+            </div>
+            <button class="bookButton">BOOK TABLE</button>
         </div>
     </main>
+
+    <main class="testimonials">
+        <div class="testimonialHeading">
+            <p id="coffeeBaseHeading">TESTIMONIALS</p>
+        </div>
+        <div class="testimony">
+            <p>"I HAVE BEEN BUYING COFFEE ABOUT 3 YEARS, YOUR FLAVOURED COFFEE IS THE BEST AND I JUST LOVE THE VARIETY
+                OF FLAVOURS THAT YOU OFFER."</p>
+            <p>Natalie Haynes</p>
+        </div>
+
+    </main>
+
+    <main class="news">
+        <p id="coffeeBaseHeading">LATEST COFFEE SHOP NEWS</p>
+        <img src="./assets/images/major-3-heading.png" alt="" id="coffeeBaseHeadingImg">
+
+
+        <div class="oneOfThreeParent">
+            <div class="oneOfThree">
+                <div style="position: relative;">
+                    <img src="./assets/images/oneofthreeIMG1.jpg" id="oneofthreeImg">
+                </div>
+                <div>
+                    <p class="oneOfThreeHeading">History of coffee</p>
+                    <p class="oneOfThreeText">Integer maximus accumsan nunc, sit amet tempor lectus facilisis eu. Cras
+                        vel elit felis. Vestibulum convallis ipsum id aliquam varius. Etiam la...</p>
+                    <p class="oneOfThreeDate">Feb 24, 2020 | Category 14 Comments</p>
+                </div>
+
+            </div>
+            <div class="oneOfThree">
+                <div>
+                    <img src="./assets/images/oneofthreeIMG2.jpg" id="oneofthreeImg">
+                </div>
+                <div>
+                    <p class="oneOfThreeHeading">About the coffee</p>
+                    <p class="oneOfThreeText">Integer maximus accumsan nunc, sit amet tempor lectus facilisis eu. Cras
+                        vel elit felis. Vestibulum
+                        convallis ipsum id aliquam varius. Etiam la...</p>
+                    <p class="oneOfThreeDate">Feb 26, 2020 | Category 13 Comments</p>
+                </div>
+
+            </div>
+            <div class="oneOfThree">
+                <div>
+                    <img src="./assets/images/oneofthreeIMG3.jpg" id="oneofthreeImg">
+                </div>
+                <div>
+                    <p class="oneOfThreeHeading">Coffee roasts guide</p>
+                    <p class="oneOfThreeText">Integer maximus accumsan nunc, sit amet tempor lectus facilisis eu. Cras
+                        vel elit felis. Vestibulum
+                        convallis ipsum id aliquam varius. Etiam la...</p>
+                    <p class="oneOfThreeDate">Feb 20, 2020 | Category 15 Comments</p>
+                </div>
+
+            </div>
+        </div>
+        <haha class="newsButtonParent">
+            <button class="newsButton">READ MORE</button>
+        </haha>
+        
+    </main>
+    <hr>
+
+    <footer>
+        <img src="./assets/images/major-2-bgimgcenter.png" alt="" id="footerBGImg">
+        <img src="./assets/images/footercenterbgimg.png" alt="" id="footerCenterBGImg">
+
+        <div class="footerHero">
+            <div>
+                <img src="./assets/images/logo.png" alt="logo" id="footerImg">
+            </div>
+            <div>
+                <p id="footerHeading">WE CRAFT OUR COFFEE WITH LOVE AND PASSION.</p>
+                <p id="footerText">Inteder maximus accumsan nune cit amet Vestibulum convallis ipsum id aliquam.</p>
+            </div>
+
+        </div>
+        <div>
+            <p class="footerItemHeading">EXPLORE</p>
+            <div class="footerExploreItems">
+                <p>Home</p>
+                <p>Contact Us</p>
+                <p>Products</p>
+                <p>Blog</p>
+                <p>About Us</p>
+                <p>Gallery</p>
+            </div>
+        </div>
+        <div>
+            <p class="footerItemHeading">FIND US</p>
+            <div class="footerfindusText">
+                <p>257 Sunset Drive Westbury, NY 11590</p>
+                <p>+1-585-964-8293</p>
+                <p>@coffeeshop.com</p>
+                <div class="socialMediaIcons">
+                    <img src="./assets/images/facebook.png" alt="">&ensp;
+                    <img src="./assets/images/instagram.png" alt="">&ensp;
+                    <img src="./assets/images/twitter.png" alt="">
+                </div>
+            </div>
+        </div>
+    </footer>
+
 </body>
 
 </html>

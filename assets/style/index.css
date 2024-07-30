@@ -2,7 +2,8 @@
     --mainColor: rgb(189, 171, 137);
     font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
-body{
+
+body {
     font-family: sans-serif;
     margin: 0;
     background-color: rgb(16, 15, 14);
@@ -22,16 +23,19 @@ nav {
     margin-right: 5%;
     /* background-color: rgb(48, 57, 64); */
 }
+
 #headerImg {
     position: absolute;
     height: 80%;
     left: clamp(1rem, 1vw, 2rem);
     padding: 1%;
 }
+
 #headerText {
     display: flex;
     justify-content: right;
 }
+
 #headerText button {
     display: none;
     margin: 1vw;
@@ -47,6 +51,7 @@ nav {
     border-top: 0;
     transition: all 0.2s ease-in;
 }
+
 #headerText button:hover {
     background-color: #575555;
     border-radius: 5px;
@@ -54,7 +59,8 @@ nav {
     padding-right: 1%;
     /* border: 10px groove; */
 }
-#menuBar{
+
+#menuBar {
     padding: 1%;
     padding: 1%;
     border: 0px groove;
@@ -65,35 +71,41 @@ nav {
     background-color: rgb(63, 65, 66);
     border-radius: 10px;
 }
-#menuBar:hover{
+
+#menuBar:hover {
     background-color: #6b6868;
     border-radius: 5px;
     padding-left: 1%;
     padding-right: 1%;
 }
-.header{
+
+.header {
     /* background-image: url("../images/major-1-bgimgleft.png");
     top: 0;
     left: 0; */
     position: relative;
     height: auto;
 }
-.headerRightText{
+
+.headerRightText {
     color: white;
     flex-direction: column;
 }
-#headerFirstP{
+
+#headerFirstP {
     padding-left: 50vw;
-    font-size: clamp(1.3rem, max(3vh,4vw), 4rem);
+    font-size: clamp(1.3rem, max(3vh, 4vw), 4rem);
     font-weight: bolder;
     margin-right: 5%;
     margin-top: 10%;
 }
-#headerSecondP{
+
+#headerSecondP {
     padding-left: 60vw;
-    font-size: clamp(.8rem, max(2vh,3vw), 2rem);
+    font-size: clamp(.8rem, max(2vh, 3vw), 2rem);
     margin-right: 10%;
 }
+
 /* #leftBGImgOFHeader{
     min-height: 70vh;
     max-height: 110vh;
@@ -110,7 +122,7 @@ nav {
     z-index: -1;
 
 } */
-#leftBGMeshOFHeader{
+#leftBGMeshOFHeader {
     position: absolute;
     z-index: -3;
     top: 12%;
@@ -118,22 +130,24 @@ nav {
     width: 10rem;
 }
 
-#firstbgimgleft{
+#firstbgimgleft {
     position: absolute;
     top: 0%;
     left: 0%;
     width: 8rem;
     z-index: -2;
 }
-#leftpfpOFHeader{
+
+#leftpfpOFHeader {
     position: absolute;
     z-index: -1;
     top: 15%;
     left: 5%;
     width: 12rem;
 }
-#HeaderReadMore{
-    font-size: clamp(.8rem, max(1.8vh,2.8vw), 2rem);
+
+#HeaderReadMore {
+    font-size: clamp(.8rem, max(1.8vh, 2.8vw), 2rem);
     padding: 2%;
     padding-right: 4%;
     padding-left: 4%;
@@ -151,87 +165,100 @@ nav {
 
 
 
-.ourStory{
+.ourStory {
     position: relative;
     max-height: 90vh;
     height: auto;
     color: white;
     margin: 5%;
 }
-#ourStoryPFP{
+
+#ourStoryPFP {
     display: block;
     margin-left: auto;
     margin-right: auto;
     max-width: 50vw;
     z-index: -1;
 }
-#ourStoryheading{
-    font-size: clamp(.8rem, max(2vh,3vw), 2rem);
+
+#ourStoryheading {
+    font-size: clamp(.8rem, max(2vh, 3vw), 2rem);
     font-weight: bolder;
     color: var(--mainColor);
 }
-#ourStorycontext{
-    font-size: clamp(.8rem, max(2vh,3vw), 2rem);
+
+#ourStorycontext {
+    font-size: clamp(.8rem, max(2vh, 3vw), 2rem);
 }
-#ourStoryReadMore{
+
+#ourStoryReadMore {
     background-color: rgb(18, 17, 17);
     border: 5px solid var(--mainColor);
     color: white;
-    font-size: clamp(.8rem, max(1.8vh,2.8vw), 2rem);
+    font-size: clamp(.8rem, max(1.8vh, 2.8vw), 2rem);
     padding: 2%;
     padding-left: 4%;
     padding-right: 4%;
     font-weight: bolder;
 }
-.ourStoryText{
+
+.ourStoryText {
     margin-right: 5%;
 }
 
-#ourStoryRightBGImg{
+#ourStoryRightBGImg {
     position: absolute;
     z-index: -2;
     right: -5%;
     bottom: -15%;
     max-width: 30vw;
 }
-#ourStorycenterBGImg{
+
+#ourStorycenterBGImg {
     position: absolute;
     z-index: -2;
     top: -5%;
-    height: max(15vh,15vw);
+    height: max(15vh, 15vw);
     left: 45%;
 }
 
 
-.coffeeBase{
+.coffeeBase {
     position: relative;
     padding: 5%;
     height: auto;
     text-align: center;
 }
-#coffeeBaseHeading{
-    font-size: clamp(.8rem, max(2vh,3vw), 2rem);
+
+#coffeeBaseHeading {
+    font-size: clamp(.8rem, max(2vh, 3vw), 2rem);
     font-weight: bolder;
     color: var(--mainColor);
+    text-align: center;
 }
-#coffeeBaseHeadingImg{
+
+#coffeeBaseHeadingImg {
     display: block;
     margin-left: auto;
     margin-right: auto;
-    height: clamp(.8rem, max(1.5vh,2.5vw), 1.5rem);
+    height: clamp(.8rem, max(1.5vh, 2.5vw), 1.5rem);
 }
-.oneOfThree{
+
+.oneOfThree {
     display: flex;
-    flex-direction: column;
     padding: 3%;
+    gap: 5%;
 }
-.oneOfThree :nth-child(2){
-    font-size: clamp(.8rem, max(1.5vh,2.5vw), 1.8rem);
+
+/* .oneOfThree d :nth-child(2) { */
+.oneOfThreeHeading {
+    font-size: clamp(.8rem, max(1.5vh, 2.5vw), 1.8rem);
     font-weight: bolder;
     color: var(--mainColor);
 }
-.oneOfThree :nth-child(3){
-    font-size: clamp(.8rem, max(1vh,2vw), 1.3rem);
+
+.oneOfThreeText {
+    font-size: clamp(.8rem, max(1vh, 2vw), 1.3rem);
     color: white;
 }
 
@@ -244,40 +271,46 @@ nav {
     z-index: -1;
 }
 
+.oneOfThreeDate{
+    color: var(--mainColor);
+    font-size: clamp(.8rem, max(1vh, 2vw), 1.3rem);
+}
 
-
-#tryItPFP
-{
+#tryItPFP {
     display: block;
     margin-left: auto;
     margin-right: auto;
     max-width: 50vw;
     max-height: 45vw;
 }
-#tryItText{
+
+#tryItText {
     padding: 5%;
     position: relative;
 }
-#tryItText :first-child{
-    font-size: clamp(1.3rem, max(2vh,3vw), 2rem);
+
+#tryItText :first-child {
+    font-size: clamp(1.3rem, max(2vh, 3vw), 2rem);
     font-weight: bolder;
 }
-#tryItText :nth-child(2){
-    font-size: clamp(.8rem, max(2vh,3vw), 2rem);
+
+#tryItText :nth-child(2) {
+    font-size: clamp(.8rem, max(2vh, 3vw), 2rem);
     line-height: 120%;
     letter-spacing: .05rem;
 }
-#tryItReadMore{
+
+#tryItReadMore {
     background-color: var(--mainColor);
     border: 1px solid white;
-    font-size: clamp(.8rem, max(1.5vh,2vw), 1.5rem);
+    font-size: clamp(.8rem, max(1.5vh, 2vw), 1.5rem);
     padding: 3%;
     padding-left: 4%;
     padding-right: 4%;
     font-weight: bolder;
 }
 
-#tryItBG{
+#tryItBG {
     position: absolute;
     width: 100vw;
     min-height: 90vh;
@@ -286,116 +319,328 @@ nav {
     left: 0%;
     top: -20%;
 }
-#tryItCoffeeMug{
+
+#tryItCoffeeMug {
     display: none;
     height: auto;
     width: 30vw;
     max-height: 20vw;
 }
-#tryItRightSide{
+
+#tryItRightSide {
     display: flex;
 }
 
-.menu{
+.menu {
+    background-image: url("../images/major-5-bgimg.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
     position: relative;
-}
-#menuBG{
-    position: absolute;
-    z-index: -3;
-    right: 0;
-    left: 0;
-    margin: auto;
+    min-height: 100vh;
+    margin-left: 5%;
+    margin-right: 5%;
 }
 
+.menuItems {
+    display: flex;
+    justify-content: right;
+}
+
+.type>div :first-child {
+    font-size: clamp(.8rem, max(2vh, 3vw), 1.5rem);
+    letter-spacing: .05rem;
+    color: white;
+
+}
+
+.type>div p {
+    display: inline;
+}
+
+
+
+.bookingItems {
+    font-size: clamp(.8rem, max(1vh, 1vw), 1rem);
+    display: flex;
+    flex-direction: column;
+    color: white;
+    margin: 5%;
+    font-weight: bold;
+}
+
+.item {
+    width: max(15vw, 15vh);
+    padding: 5%;
+    padding-left: 7%;
+    padding-right: 7%;
+    border: none;
+}
+
+.bookButton {
+    font-size: clamp(.8rem, max(1vh, 1vw), 1rem);
+    font-weight: bold;
+    max-width: max(15vw, 15vh);
+    padding: 1%;
+    padding-left: 2%;
+    padding-right: 2%;
+    border: none;
+    background-color: var(--mainColor);
+    color: white;
+    margin: 5%;
+    margin-top: 5.7%;
+}
+
+#bookInfo {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.testimonials{
+    position: relative;
+}
+.testimonialHeading {
+    background-image: url("../images/testimony-bg.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: min(80vh, 50vw);
+}
+
+.testimonialHeading p {
+    padding: 5%;
+}
+
+.testimony {
+    font-size: clamp(.8rem, max(2vh, 3vw), 1.5rem);
+    line-height: 120%;
+    letter-spacing: .05rem;
+    background-color: var(--mainColor);
+    margin: 5%;
+    margin-top: 0;
+    padding: 2%;
+    padding-left: 5%;
+    padding-right: 5%;
+}
+
+.testimony :nth-child(2) {
+    text-align: center;
+    font-weight: bold;
+    font-size: clamp(1rem, max(2vh, 3vw), 2rem);
+}
+
+#oneofthreeimg {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 27vw;
+    height: auto;
+    z-index: -1;
+}
+
+footer{
+    background-image: url("../images/footerbg.png");
+    background-repeat: no-repeat;
+    background-position: bottom;
+    padding: 5%;
+    color: white;
+    position: relative;
+}
+
+#footerHeading {
+    font-size: clamp(.8rem, max(1.5vh, 2.5vw), 1.8rem);
+    font-weight: bolder;
+}
+#footerText{
+    font-size: clamp(.5rem, max(1.5vh, 2.5vw), 1.3rem);
+}
+
+.footerItemHeading {
+    font-size: clamp(.8rem, max(1.5vh, 2.5vw), 1.8rem);
+    font-weight: bolder;
+    color: var(--mainColor);
+}
+.footerExploreItems{
+    display: flex;
+    gap: 5%;
+}
+.footerExploreItems p{
+    font-size: clamp(.5rem, max(1.5vh, 2.5vw), 1.3rem);
+    font-weight: bold;
+}
+
+.footerfindusText{
+    font-size: clamp(.5rem, max(1.5vh, 2.5vw), 1.3rem);
+    line-height: 80%;
+}
+
+#footerImg{
+    height: min(13vh, 20vw);
+}
+.footerHero{
+    display: flex;
+    gap: 5%;
+}
+#footerBGImg {
+    position: absolute;
+    z-index: -1;
+    left: 30%;
+    top: -20%;
+    height: max(15vh, 15vw);
+}
+.newsButtonParent{
+    display: flex;
+    justify-content: center;
+}
+.newsButton {
+    font-size: clamp(.8rem, max(1.5vh, 2vw), 1.5rem);
+    font-weight: bolder;
+    max-width: max(20vw, 20vh);
+    padding: 1.5%;
+    padding-left: 3%;
+    padding-right: 3%;
+    border: none;
+    background-color: var(--mainColor);
+    color: white;
+    margin: 5%;
+}
+
+#footerCenterBGImg{
+    position: absolute;
+    height: auto;
+    bottom: 0;
+    right: 20%;
+    width: max(25vw,15vh);
+}
 
 @media screen and (min-width: 524px) {
 
-    #tryItCoffeeMug{
+    #tryItCoffeeMug {
         display: block;
         margin: auto;
     }
 }
+
 @media screen and (min-width: 768px) {
-    nav{
+    nav {
         min-height: 15vh;
     }
+
     #headerText button {
         display: block;
     }
-    #menuBar{
+
+    #menuBar {
         display: none;
     }
 
-    #headerSecondP{
+    #headerSecondP {
         padding-left: 65vw;
         margin-right: 12%;
     }
-    #HeaderReadMore{
+
+    #HeaderReadMore {
         margin-left: 65vw;
     }
-    #firstbgimgleft{
+
+    #firstbgimgleft {
         width: 12rem;
     }
-    #leftBGMeshOFHeader{
+
+    #leftBGMeshOFHeader {
         top: 25%;
         width: 20rem;
-    } 
-    #leftpfpOFHeader{
+    }
+
+    #leftpfpOFHeader {
         top: 30%;
         width: 25rem;
     }
-    .ourStory{
+
+    .ourStory {
         margin-top: 20%;
         display: flex;
         flex-direction: row-reverse;
         margin-right: 5%;
     }
-    #ourStoryPFP{
+
+    #ourStoryPFP {
         max-height: 85vh;
     }
-    .ourStoryText{
+
+    .ourStoryText {
         max-width: 35vw;
     }
-    .oneOfThreeParent{
+    .oneOfThree {
+        flex-direction: column;
+        gap: 0;
+    }
+
+    .oneOfThreeParent {
         display: flex;
     }
-    .oneOfThree :nth-child(3){
+
+    .oneOfThreeText {
         line-height: 120%;
     }
-    
+    .footerHero{
+        display: flex;
+        flex-direction: column;
+    }
+
 }
-@media screen and (min-width:1024px){
-    #firstbgimgleft{
+
+@media screen and (min-width:1024px) {
+    #firstbgimgleft {
         width: 18rem;
     }
-    #leftBGMeshOFHeader{
+
+    #leftBGMeshOFHeader {
         top: 25%;
         width: 28rem;
-    } 
-    #leftpfpOFHeader{
+    }
+
+    #leftpfpOFHeader {
         top: 30%;
         width: 40rem;
     }
-    .ourStoryText{
+
+    .ourStoryText {
         max-width: 40vw;
     }
-    .ourStory{
+
+    .ourStory {
         margin-top: 30%;
     }
-    #ourStorycenterBGImg{
+
+    #ourStorycenterBGImg {
         top: -15%;
     }
-    .tryIt{
+
+    .tryIt {
         display: flex;
     }
-    #tryItBG{
+
+    #tryItBG {
         left: auto;
         right: 0;
     }
-    #tryItRightSide{
+
+    #tryItRightSide {
         flex-direction: column;
     }
-    #tryItText{
+
+    #tryItText {
         padding: 10%;
+    }
+    footer{
+        display: flex;
+        gap: 5%;
+    }
+    .footerExploreItems{
+        display: block;
+    }
+    .footerfindusText{
+        line-height: normal;
     }
 }
