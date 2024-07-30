@@ -2,13 +2,15 @@
     --mainColor: rgb(189, 171, 137);
     font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
+
 /* .hue{
     background-color: rgb(111, 78, 55,0.9);
 } */
-.blend-overlay{ 
+.blend-overlay {
     filter: grayscale(0.1) saturate(0.7) brightness(0.9);
- /* Adjust blend mode if needed */
+    /* Adjust blend mode if needed */
 }
+
 /* mix-blend-mode: overlay; */
 
 body {
@@ -274,7 +276,7 @@ nav {
     z-index: -1;
 }
 
-.oneOfThreeDate{
+.oneOfThreeDate {
     color: var(--mainColor);
     font-size: clamp(.8rem, max(1vh, 2vw), 1.3rem);
 }
@@ -346,35 +348,40 @@ nav {
     margin-right: 5%;
 }
 
-.listnamee{
+.listnamee {
     font-size: clamp(.8rem, max(2vh, 3vw), 1.5rem);
     letter-spacing: .05rem;
     color: white;
 
 }
-.listprice{
+
+.listprice {
     font-size: clamp(.8rem, max(2vh, 3vw), 1.5rem);
     letter-spacing: .05rem;
     color: white;
     font-weight: bold;
 
 }
-.typeEx{
+
+.typeEx {
     padding-left: 25vw;
     margin: 5%;
     padding-top: 5%;
     margin-top: 0;
 }
-.typeT{
+
+.typeT {
     padding-left: 25vw;
     margin: 5%;
     padding-bottom: 5%;
 }
-.menuList{
+
+.menuList {
     display: flex;
     justify-content: space-between;
 }
-.menu hr{
+
+.menu hr {
     line-height: 0;
     margin: 0%;
 }
@@ -390,14 +397,17 @@ nav {
     background-color: var(--mainColor);
     color: white;
 }
-x{
+
+x {
     display: flex;
     justify-content: end;
 }
-.Booking{
+
+.Booking {
     padding-top: 3%;
     padding-bottom: 5%;
 }
+
 .bookingItems {
     font-size: clamp(.8rem, max(1vh, 1vw), 1rem);
     display: flex;
@@ -435,9 +445,10 @@ x{
     justify-content: center;
 }
 
-.testimonials{
+.testimonials {
     position: relative;
 }
+
 .testimonialHeading {
     background-image: url("../images/1.png");
     background-repeat: no-repeat;
@@ -474,9 +485,10 @@ x{
     width: 27vw;
     height: auto;
     z-index: -1;
+    filter: grayscale(0.1) saturate(0.7) brightness(0.9);
 }
 
-footer{
+footer {
     background-image: url("../images/footerbg.png");
     background-repeat: no-repeat;
     background-position: bottom;
@@ -489,7 +501,8 @@ footer{
     font-size: clamp(.8rem, max(1.5vh, 2.5vw), 1.8rem);
     font-weight: bolder;
 }
-#footerText{
+
+#footerText {
     font-size: clamp(.5rem, max(1.5vh, 2.5vw), 1.3rem);
 }
 
@@ -498,27 +511,31 @@ footer{
     font-weight: bolder;
     color: var(--mainColor);
 }
-.footerExploreItems{
+
+.footerExploreItems {
     display: flex;
     gap: 5%;
 }
-.footerExploreItems p{
+
+.footerExploreItems p {
     font-size: clamp(.5rem, max(1.5vh, 2.5vw), 1.3rem);
     font-weight: bold;
 }
 
-.footerfindusText{
+.footerfindusText {
     font-size: clamp(.5rem, max(1.5vh, 2.5vw), 1.3rem);
     line-height: 80%;
 }
 
-#footerImg{
+#footerImg {
     height: min(13vh, 20vw);
 }
-.footerHero{
+
+.footerHero {
     display: flex;
     gap: 5%;
 }
+
 #footerBGImg {
     position: absolute;
     z-index: -1;
@@ -526,10 +543,12 @@ footer{
     top: -20%;
     height: max(15vh, 15vw);
 }
-.newsButtonParent{
+
+.newsButtonParent {
     display: flex;
     justify-content: center;
 }
+
 .newsButton {
     font-size: clamp(.8rem, max(1.5vh, 2vw), 1.5rem);
     font-weight: bolder;
@@ -543,22 +562,23 @@ footer{
     margin: 5%;
 }
 
-#footerCenterBGImg{
+#footerCenterBGImg {
     position: absolute;
     height: auto;
     bottom: 0;
     right: 20%;
-    width: max(25vw,15vh);
+    width: max(25vw, 15vh);
 }
 
 @media screen and (min-width: 524px) {
-    .typeEx{
+    .typeEx {
         padding-left: 40vw;
         margin: 5%;
         padding-top: 5%;
         margin-top: 0;
     }
-    .typeT{
+
+    .typeT {
         padding-left: 40vw;
         margin: 5%;
         padding-bottom: 5%;
@@ -571,7 +591,7 @@ footer{
 }
 
 @media screen and (min-width: 768px) {
-   
+
     nav {
         min-height: 15vh;
     }
@@ -621,6 +641,7 @@ footer{
     .ourStoryText {
         max-width: 35vw;
     }
+
     .oneOfThree {
         flex-direction: column;
         gap: 0;
@@ -633,13 +654,16 @@ footer{
     .oneOfThreeText {
         line-height: 120%;
     }
-    .typeEx{
+
+    .typeEx {
         padding-left: 50vw;
     }
-    .typeT{
+
+    .typeT {
         padding-left: 50vw;
     }
-    .footerHero{
+
+    .footerHero {
         display: flex;
         flex-direction: column;
     }
@@ -689,20 +713,29 @@ footer{
     #tryItText {
         padding: 10%;
     }
-    footer{
+
+    footer {
         display: flex;
         gap: 5%;
     }
-    .footerExploreItems{
+
+    .footerExploreItems {
         display: block;
     }
-    .footerfindusText{
+
+    .footerfindusText {
         line-height: normal;
     }
-    .menu{
-    mix-blend-mode: lighten; 
+
+    .menu {
+        mix-blend-mode: lighten;
     }
-    .typeEx{
+
+    .typeEx {
         padding-top: 10%;
+    }
+
+    .footerHero {
+        max-width: 35vw;
     }
 }
